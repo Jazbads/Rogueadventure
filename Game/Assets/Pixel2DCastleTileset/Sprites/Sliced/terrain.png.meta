@@ -249,7 +249,7 @@ TextureImporter:
       213: 21300162
     second: terrain_81
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -270,6 +270,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -308,6 +309,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -323,6 +325,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2068,6 +2094,89 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      terrain_2: 21300004
+      terrain_72: 21300144
+      terrain_57: 21300114
+      terrain_3: 21300006
+      terrain_33: 21300066
+      terrain_46: 21300092
+      terrain_39: 21300078
+      terrain_77: 21300154
+      terrain_70: 21300140
+      terrain_38: 21300076
+      terrain_26: 21300052
+      terrain_67: 21300134
+      terrain_68: 21300136
+      terrain_56: 21300112
+      terrain_64: 21300128
+      terrain_17: 21300034
+      terrain_11: 21300022
+      terrain_53: 21300106
+      terrain_42: 21300084
+      terrain_65: 21300130
+      terrain_45: 21300090
+      terrain_69: 21300138
+      terrain_71: 21300142
+      terrain_81: 21300162
+      terrain_12: 21300024
+      terrain_16: 21300032
+      terrain_32: 21300064
+      terrain_75: 21300150
+      terrain_76: 21300152
+      terrain_8: 21300016
+      terrain_15: 21300030
+      terrain_35: 21300070
+      terrain_0: 21300000
+      terrain_10: 21300020
+      terrain_59: 21300118
+      terrain_63: 21300126
+      terrain_34: 21300068
+      terrain_13: 21300026
+      terrain_66: 21300132
+      terrain_40: 21300080
+      terrain_31: 21300062
+      terrain_80: 21300160
+      terrain_52: 21300104
+      terrain_21: 21300042
+      terrain_58: 21300116
+      terrain_27: 21300054
+      terrain_73: 21300146
+      terrain_5: 21300010
+      terrain_7: 21300014
+      terrain_24: 21300048
+      terrain_43: 21300086
+      terrain_6: 21300012
+      terrain_20: 21300040
+      terrain_19: 21300038
+      terrain_25: 21300050
+      terrain_28: 21300056
+      terrain_36: 21300072
+      terrain_49: 21300098
+      terrain_4: 21300008
+      terrain_22: 21300044
+      terrain_62: 21300124
+      terrain_60: 21300120
+      terrain_14: 21300028
+      terrain_18: 21300036
+      terrain_47: 21300094
+      terrain_29: 21300058
+      terrain_54: 21300108
+      terrain_37: 21300074
+      terrain_9: 21300018
+      terrain_41: 21300082
+      terrain_50: 21300100
+      terrain_55: 21300110
+      terrain_1: 21300002
+      terrain_51: 21300102
+      terrain_61: 21300122
+      terrain_44: 21300088
+      terrain_78: 21300156
+      terrain_74: 21300148
+      terrain_23: 21300046
+      terrain_48: 21300096
+      terrain_79: 21300158
+      terrain_30: 21300060
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
