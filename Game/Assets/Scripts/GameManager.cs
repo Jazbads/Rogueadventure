@@ -12,12 +12,11 @@ public class GameManager : MonoBehaviour
    private float respawntime;
    private float respawntimestart;
    private bool respawn;
+   public GameObject playerprefab;
 
    private CinemachineVirtualCamera CVC;
 
    private void Start(){
-       
-       CVC = GameObject.Find("playerCam").GetComponent<CinemachineVirtualCamera>();
        
        }
     private void Update(){
@@ -34,8 +33,8 @@ public class GameManager : MonoBehaviour
    {
        if(Time.time >= respawntimestart + respawntime && respawn)
        {
-           var playerTemp = Instantiate(player, respawnpoint);
-           CVC.m_Follow = playerTemp.transform;
+           GameObject player = Instantiate(playerprefab, respawnpoint);
+           CVC.m_Follow = player.transform;
            respawn = false;
         }
    }

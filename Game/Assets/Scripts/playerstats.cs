@@ -5,14 +5,15 @@ using UnityEngine;
 public class playerstats : MonoBehaviour
 {
     [SerializeField]
-    private float maxHealth;
+    public float maxHealth;
     [SerializeField]
     private GameObject
         deathchunkparticle,
         deathbloodparticle;
     
-    private float currentHealth;
+    public float currentHealth;
     private GameManager GM;
+    public HealthBar healthBar;
     private void Start(){
         
         currentHealth = maxHealth;
@@ -20,6 +21,7 @@ public class playerstats : MonoBehaviour
     }
     public void DecreaseHealth(float amount){
         currentHealth -= amount;
+        healthBar.SetHealth(currentHealth);
         if (currentHealth <= 0.0f){
             Die();
         }

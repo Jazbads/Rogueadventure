@@ -41,8 +41,6 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Physics2D physic2D;
     private Animator anim;
-    public int maxHealth = 100;
-    public int currentHealth;
     public Transform groundCheck;
     public Transform wallcheck;
     public Transform ledgecheck;
@@ -53,15 +51,11 @@ public class PlayerController : MonoBehaviour
     private Vector2 ledgePosBot;
     private Vector2 ledgePos1;
     private Vector2 ledgePos2;
-    public HealthBar healthBar;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
     }
-
     void Update()
     {
         CheckMovementDirection();
