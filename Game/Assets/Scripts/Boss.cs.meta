@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 02e6fc2238a917c44bace993cdb0c3ff
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - groundcheck: {instanceID: 0}
+  - wallcheck: {instanceID: 0}
+  - touchdamagecheck: {instanceID: 0}
+  - hitparticle: {fileID: 9042213660087098985, guid: d14d8f6f62bd75b4a86c04922508074c, type: 3}
+  - deathchunkparticle: {fileID: 469899241766406374, guid: aa1ba34ebe5b1994d9c94fa9b8ca65df, type: 3}
+  - deathbloodparticle: {fileID: 1213016734937683040, guid: 8969ad4c886a3bd468a738118c51b7af, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

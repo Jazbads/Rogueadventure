@@ -59,7 +59,6 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
     }
 
     void Update()

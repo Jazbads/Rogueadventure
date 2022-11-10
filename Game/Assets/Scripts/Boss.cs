@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class basicenemycontroller : MonoBehaviour
+public class Boss : MonoBehaviour
 {
     private enum State
     {
@@ -142,7 +143,7 @@ public class basicenemycontroller : MonoBehaviour
     }
     private void exitknockbackstate()
     {
-        aliveAnim.SetBool("Knockback", true);
+        aliveAnim.SetBool("Knockback", false);
     }
 
     //deadstate
@@ -151,6 +152,7 @@ public class basicenemycontroller : MonoBehaviour
         Instantiate (deathchunkparticle, alive.transform.position, deathchunkparticle.transform.rotation);
         Instantiate (deathbloodparticle, alive.transform.position, deathbloodparticle.transform.rotation);
         Destroy(gameObject);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     private void updatedeadstate()
     {
